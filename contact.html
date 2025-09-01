@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <div>
+          <img src="images/logo 2.jpg" alt="" />
+        </div>
+        <div class="logo-name">SAM COFFEE</div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="login.html">LOGIN</a></li>
+          <li><a href="#">SHOP</a></li>
+          <li><a href="#">PAGES</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="right-side">
+        <a href="#"><i class="fas fa-search"></i></a>
+        <button>Contact us</button>
+      </div>
+    </header>
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252230.02028811967!2d38.613326590453504!3d8.963479544744851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sAddis%20Ababa!5e0!3m2!1sen!2set!4v1709025937725!5m2!1sen!2set"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <i class="fa fa-home"></i>
+          <span>
+            <h5>Safari, 20 meter</h5>
+            <p>addis ababa,</p>
+          </span>
+        </div>
+        <div class="contact-col">
+          <i class="fa fa-phone"></i>
+          <span>
+            <h5>+251 980154685</h5>
+            <p>Monday to Saturday 10AM to 6PM</p>
+          </span>
+        </div>
+        <div class="contact-col">
+          <i class="fa fa-envelope-o"></i>
+          <span>
+            <h5>salmjelani@gmail.com</h5>
+            <p>Email us your query</p>
+          </span>
+        </div>
+        <div class="contact-col">
+          <form action="form-handler.php" method="post">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+            <input
+              type="Email"
+              name="email"
+              placeholder="Enter email address"
+              required
+            />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Enter subject"
+              required
+            />
+            <textarea
+              rows="8"
+              name="message"
+              placeholder="message"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
